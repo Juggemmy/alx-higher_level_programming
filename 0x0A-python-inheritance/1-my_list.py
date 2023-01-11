@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-"A module that defines a class named MyList"
+"""Defines an inherited list class Mylist."""
 
 
 class MyList(list):
-    """A class named MyList
-    Attributes:
-    attr1(print_sorted): prints sorted list
-    """
+    """Impliments sorted printing for the built-in class."""
+
     def print_sorted(self):
-        """Prints instance"""
+        """Print a list in sorted ascending order."""
         print(sorted(self))
